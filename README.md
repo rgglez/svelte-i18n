@@ -1,19 +1,32 @@
-> :information_source: `svelte-i18n` is due to some reworking, like moving from a singleton to instances. This will be worked on when I find the time and priority :pray:
 
-[![npm version](https://badge.fury.io/js/svelte-i18n.svg)](https://badge.fury.io/js/svelte-i18n) ![](https://github.com/kaisermann/svelte-i18n/workflows/CI/badge.svg)
 
 # svelte-i18n
 
-> Internationalization for Svelte.
+[![License](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
+![GitHub all releases](https://img.shields.io/github/downloads/rgglez/svelte-i18n/total) 
+![GitHub issues](https://img.shields.io/github/issues/rgglez/svelte-i18n) 
+![GitHub commit activity](https://img.shields.io/github/commit-activity/y/rgglez/svelte-i18n)
+![Downloads](https://img.shields.io/npm/dm/@rgglez/svelte-i18n.svg)
+[![npm version](https://badge.fury.io/js/svelte-i18n.svg)](https://badge.fury.io/js/@rgglez/svelte-i18n) 
+![MadeWithSvelte](https://madewithsvelte.com/storage/repo-shields/2274-shield.svg)
+
+Internationalization for Svelte.
 
 `svelte-i18n` helps you localize your app using the reactive tools Svelte provides. By using [stores](https://svelte.dev/docs#svelte_store) to keep track of the current `locale`, `dictionary` of messages and to `format` messages, we keep everything neat, in sync and easy to use on your svelte files.
 
-**Requirements**
+## About this fork
 
-- Node: `>= 11.15.0`
+This fork patches a security vulnerability and updates the Svelte dependency to **version 5+**. Take this into account.
+
+## Dependencies
+
+- **svelte** >= 5.0.0
+- **node** >= 11.15.0
 - Browsers: `Chrome 38+`, `Edge 16+`, `Firefox 13+`, `Opera 25+`, `Safari 8+`.
 
-```svelte
+## Usage
+
+```javascript
 <script>
   import { _ } from 'svelte-i18n'
 </script>
@@ -47,6 +60,18 @@
 }
 ```
 
+## Resources
+
 - [Documentation / Getting Started](/docs/Getting%20Started.md)
 - [Usage with Svelte Kit](/docs/Svelte-Kit.md)
 - [i18n VSCode extension (3rd party)](https://github.com/antfu/i18n-ally)
+
+## License
+
+Original work Copyright 2017 Christian Kaisermann
+
+This fork:
+
+Copyright 2025 Rodolfo González González
+
+Licenced under [MIT](https://mit-license.org/). Read the [LICENSE](LICENSE) file.
