@@ -1,6 +1,6 @@
 {
-  "name": "svelte-i18n",
-  "version": "4.0.1",
+  "name": "@rgglez/svelte-i18n",
+  "version": "5.0.0",
   "type": "module",
   "main": "dist/runtime.js",
   "exports": {
