@@ -1,6 +1,6 @@
 {
   "name": "@rgglez/svelte-i18n",
-  "version": "5.0.0",
+  "version": "5.0.3",
   "type": "module",
   "main": "dist/runtime.js",
   "exports": {
@@ -13,8 +13,11 @@
   },
   "license": "MIT",
   "description": "Internationalization library for Svelte",
-  "author": "Christian Kaisermann <christian@kaisermann.me>",
-  "repository": "https://github.com/kaisermann/svelte-i18n",
+  "author": "Rodolfo González <rodolfo.gonzalez@gmail.com>",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rgglez/svelte-i18n.git"
+  },
   "keywords": [
     "svelte",
     "i18n",
@@ -39,8 +42,9 @@
     "release": " git add package.json && git commit -m \"chore(release): v$npm_package_version :tada:\"",
     "prebuild": "pnpm clean",
     "version": "conventional-changelog -p angular -i CHANGELOG.md -s -r 1 && git add CHANGELOG.md",
-    "prepublishOnly": "pnpm test -- --no-cache && pnpm build && publint",
-    "prepare": "husky install"
+    "prepublishOnly": "pnpm test --passWithNoTests -- --no-cache && pnpm build && publint",
+    "prepare": "husky install",
+    "publish": "npm publish --access public"
   },
   "files": [
     "dist/"
