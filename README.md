@@ -9,6 +9,8 @@
 ![Downloads](https://img.shields.io/npm/dm/@rgglez/svelte-i18n.svg)
 [![npm version](https://badge.fury.io/js/svelte-i18n.svg)](https://badge.fury.io/js/@rgglez/svelte-i18n) 
 ![MadeWithSvelte](https://madewithsvelte.com/storage/repo-shields/2274-shield.svg)
+![GitHub stars](https://img.shields.io/github/stars/rgglez/svelte-i18n?style=social)
+![GitHub forks](https://img.shields.io/github/forks/rgglez/svelte-i18n?style=social)
 
 Internationalization for Svelte.
 
