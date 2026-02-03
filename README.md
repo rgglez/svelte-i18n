@@ -74,6 +74,6 @@ Original work Copyright 2017 Christian Kaisermann
 
 This fork:
 
-Copyright 2025 Rodolfo González González
+Copyright 2026 Rodolfo González González
 
 Licenced under [MIT](https://mit-license.org/). Read the [LICENSE](LICENSE) file.
